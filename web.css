@@ -273,3 +273,44 @@ body{
 .body2{
     background-color: #549dd9;
 }
+/* All elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Website full width */
+html, body {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+/* Images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Main content */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 12px;
+    }
+}
+.images img{
+    width:10;
+    height:220px;
+    object-fit:contain;
+}
+    
